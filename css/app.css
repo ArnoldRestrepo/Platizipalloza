@@ -6,10 +6,11 @@ body{
 	background-color: #ee3f54;
 }
 
-h1,h2,h3,h4,h5,h6, button{
-	font-family: 'Bree Serif', serif;s
+h1,h2,h3,h4,h5,h6, button, #menu-container li a{
+	font-family: 'Bree Serif', serif;
 }
 
+/* Header */
 #social-container{
 	background-color: #1c3643;
 }
@@ -17,4 +18,36 @@ h1,h2,h3,h4,h5,h6, button{
 #logo-container .callout{
 	background-color: #ee3f54;
 	color: #fff; 
+}
+
+.callout{
+	margin-bottom: 0;
+}
+#menu-container{
+	background-color: #48a19d;
+}
+
+#menu-container li a{
+	color: #fff;
+}
+
+#menu-container li a:hover, #submenu-container li a:hover{
+	color: #f6e15f;
+}
+#submenu-container{
+	border: none;
+}
+#submenu-container li a{
+	background-color: #48a19d;
+	color: #fff;
+}
+
+#tickets-action .callout{
+	background-color: #5e7eb7;
+	color: white;
+}
+
+#tickets-action .callout button{
+	color: #fff;
+	border: 1px solid white;
 }
