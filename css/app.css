@@ -42,6 +42,7 @@ h1,h2,h3,h4,h5,h6, button, #menu-container li a{
 	color: #fff;
 }
 
+/* Tickets */
 #tickets-action .callout{
 	background-color: #5e7eb7;
 	color: white;
@@ -51,3 +52,38 @@ h1,h2,h3,h4,h5,h6, button, #menu-container li a{
 	color: #fff;
 	border: 1px solid white;
 }
+
+/* Line Up */
+#lineup-container{
+		padding: 1rem 0;
+}
+#lineup-container,
+#lineup-container .tabs-content,
+#lineup-container .tabs,
+#lineup-container .tabs .tabs-title,
+#lineup-container .tabs .tabs-title.is-active a{
+	background-color: #9676af;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+}
+
+#lineup-container .tabs .tabs-title a{
+	color: #a7fffb;
+	font-size: 18px;
+}
+
+#lineup-container .tabs .tabs-title a:hover{
+	color: #fff;
+	background-color: #9676af;
+}
+
+.tabs-title{
+	display: inline-block;
+	float: none;
+}
+
+
+
+
