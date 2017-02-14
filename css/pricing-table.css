@@ -1,0 +1,39 @@
+.pricing-table {
+  border: solid 1px #161742;
+  font-family: 'Ravi Prakash', cursive;
+}
+
+.pricing-table li {
+  border-bottom: dotted 1px #DDDDDD;
+  font-size: 1.2rem;
+  padding: 0.875rem 1.125rem;
+}
+
+.pricing-table li:last-child {
+  border-bottom: 0;
+}
+
+.pricing-table .title {
+  background-color: #333333;
+  color: #EEEEEE;
+  font-size: 1.5rem;
+  border-bottom: 0;
+}
+
+.pricing-table .price {
+  background-color: #F6F6F6;
+  color: #333333;
+  font-size: 1.9rem;
+  border-bottom: 0;
+}
+
+.pricing-table .description {
+  color: #777777;
+  font-size: 1rem;
+}
+
+.pricing-table .button {
+  margin: 0;
+  font-family: 'Bree Serif', serif;
+  font-size: .8rem;
+}
