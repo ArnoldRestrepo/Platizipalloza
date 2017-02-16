@@ -3,12 +3,11 @@ const gulp 			= require('gulp'),
 
 
 // Servidor Estatíco
-gulp.task('serve', () => {
+gulp.task('default', () => {
 	browserSync.init({
 		server: './'
 	});
 
 	gulp.watch("./*.html").on('change', browserSync.reload);
+	// gulp.watch("./css/*.css").on('change', browserSync.stream());
 });
-
-gulp

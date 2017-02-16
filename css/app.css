@@ -25,6 +25,7 @@ h1,h2,h3,h4,h5,h6, button, #menu-container li a{
 }
 #menu-container{
 	background-color: #48a19d;
+	overflow: hidden !important;
 }
 
 #menu-container li a{
@@ -99,6 +100,19 @@ h1,h2,h3,h4,h5,h6, button, #menu-container li a{
 	padding: 1rem 0;
 	background-color: #f6e15f;
 	color: #161742;
+}
+
+/* Suscribirse */
+#suscribete-container{
+	background-color: #ee3f54;
+	color: #fff;
+	padding-top: 1rem;
+}
+#suscribete-container h4 small{
+	color: #ffcddc;
+}
+#suscribete-container .button{
+	font-family: 'Bree Serif', serif;
 }
 
 /* Información */
