@@ -36,22 +36,24 @@
     <!-- Logo -->
 
     <!-- Menu -->
-    <section id="menu-container">
-      <nav>
+    <section data-sticky-container id="scrollSticky">
+      <div class="data-sticky" data-sticky data-options="marginTop: 0;" data-sticky-on="small" data-top-anchor="scrollSticky">
+        <nav id="menu-container" data-magellan>
         <ul class="menu dropdown align-spaced" data-dropdown-menu>
           <li><a href="#tickets-container">Tickets</a></li>
           <li>
             <a href="#lineup-container">Lineup</a>
-            <ul id="submenu-container"class="menu">
+            <ul id="submenu-container" class="menu">
               <li><a href="#viernes">Viernes</a></li>
               <li><a href="#sabado">Sábado</a></li>
               <li><a href="#domingo">Domingo</a></li>
             </ul>
           </li>
           <li><a href="#info-container">Info</a></li>
-          <li><a href="#sus-container">Suscribirse</a></li>
+          <li><a href="#suscribete-container">Suscribirse</a></li>
         </ul>
-      </nav>
+        </nav>
+      </div>
     </section>
     <!-- Menu -->
 
@@ -66,7 +68,7 @@
     <!-- Tickets -->
 
     <!-- Line Up -->
-    <section id="lineup-container">
+    <section id="lineup-container" data-mangellan-target="lineup-container">
       <h3 class="text-center">Line Up</h3>
       <!-- Tabs Title -->
       <ul class="tabs text-center"  data-deep-link="true" data-tabs id="lineup-tabs">
@@ -300,7 +302,7 @@
     </section>
     <!-- Line Up -->
     <!-- Tickests Container -->
-    <section id="tickets-container">
+    <section id="tickets-container" data-mangellan-target="tickets-container">
       <h3 class="text-center">Comprar Boletos</h3>
       <div class="row" data-equalizer data-equalize-on="small">
         <!-- Ticket Platino -->
@@ -343,7 +345,7 @@
     </section>
     <!-- Tickests Container -->
     <!-- Suscribete -->
-    <section id="suscribete-container">
+    <section id="suscribete-container" data-mangellan-target="suscribete-container">
       <h3 class="text-center">Suscríbete</h3>
       <h4 class="text-center">
         <small>Y recibe las últimas novedades del concierto</small>
@@ -365,7 +367,7 @@
     </section>
     <!-- Suscribete -->
     <!-- Info -->
-    <section id="info-container">
+    <section id="info-container" data-mangellan-target="info-container">
       <h3 class="text-center">Información</h3>
       <div class="info-map" data-interchange="[assets/map-small.html, small],[assets/map.html,medium]"></div>
     </section>
