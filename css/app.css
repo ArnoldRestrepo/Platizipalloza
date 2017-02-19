@@ -111,10 +111,19 @@ h1,h2,h3,h4,h5,h6, button, #menu-container li a{
 #suscribete-container h4 small{
 	color: #ffcddc;
 }
-#suscribete-container .button{
+#suscribete-container .button, #suscribete-container .alert{
 	font-family: 'Bree Serif', serif;
 }
 
+#suscribete-container .alert{
+
+}
+
+.is-invalid-input:not(:focus){
+	background-color: rgb(255,228,228);
+	color: #000;
+	border: solid 1px transparent;
+}
 /* Información */
 
 #info-container{
