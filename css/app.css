@@ -47,6 +47,7 @@ h1,h2,h3,h4,h5,h6, button, #menu-container li a{
 	width: 100%;
 	z-index: 100;
 }
+
 /* Tickets */
 #tickets-action .callout{
 	background-color: #5e7eb7;
@@ -128,6 +129,7 @@ h1,h2,h3,h4,h5,h6, button, #menu-container li a{
 	color: #000;
 	border: solid 1px transparent;
 }
+
 /* Información */
 
 #info-container{
